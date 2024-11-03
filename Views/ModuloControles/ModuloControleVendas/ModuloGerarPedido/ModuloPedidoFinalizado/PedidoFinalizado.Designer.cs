@@ -104,7 +104,7 @@
             this.TotalCompra});
             this.dataGridViewPedido.EnableHeadersVisualStyles = false;
             this.dataGridViewPedido.Location = new System.Drawing.Point(261, 290);
-            this.dataGridViewPedido.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dataGridViewPedido.Margin = new System.Windows.Forms.Padding(2);
             this.dataGridViewPedido.Name = "dataGridViewPedido";
             this.dataGridViewPedido.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Sunken;
             this.dataGridViewPedido.RowHeadersVisible = false;
@@ -214,7 +214,7 @@
             this.btnVoltarParaOInicio.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnVoltarParaOInicio.ForeColor = System.Drawing.Color.White;
             this.btnVoltarParaOInicio.Location = new System.Drawing.Point(820, 532);
-            this.btnVoltarParaOInicio.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnVoltarParaOInicio.Margin = new System.Windows.Forms.Padding(2);
             this.btnVoltarParaOInicio.Name = "btnVoltarParaOInicio";
             this.btnVoltarParaOInicio.Size = new System.Drawing.Size(266, 32);
             this.btnVoltarParaOInicio.TabIndex = 76;
@@ -237,8 +237,9 @@
             this.Controls.Add(this.labelNomeUsuario);
             this.Controls.Add(this.iconPerfil);
             this.DoubleBuffered = true;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "PedidoFinalizado";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "PedidoFinalizado";
             ((System.ComponentModel.ISupportInitialize)(this.iconPerfil)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewPedido)).EndInit();

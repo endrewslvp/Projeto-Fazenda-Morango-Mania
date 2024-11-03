@@ -75,9 +75,10 @@
             // 
             this.btnExportarDados.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnExportarDados.Image = global::over.Properties.Resources.Captura_de_tela_2024_11_02_194810;
-            this.btnExportarDados.Location = new System.Drawing.Point(184, 220);
+            this.btnExportarDados.Location = new System.Drawing.Point(138, 179);
+            this.btnExportarDados.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnExportarDados.Name = "btnExportarDados";
-            this.btnExportarDados.Size = new System.Drawing.Size(394, 42);
+            this.btnExportarDados.Size = new System.Drawing.Size(296, 34);
             this.btnExportarDados.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.btnExportarDados.TabIndex = 71;
             this.btnExportarDados.TabStop = false;
@@ -90,9 +91,10 @@
             this.labelVoltar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.labelVoltar.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelVoltar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
-            this.labelVoltar.Location = new System.Drawing.Point(180, 303);
+            this.labelVoltar.Location = new System.Drawing.Point(135, 246);
+            this.labelVoltar.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelVoltar.Name = "labelVoltar";
-            this.labelVoltar.Size = new System.Drawing.Size(70, 27);
+            this.labelVoltar.Size = new System.Drawing.Size(56, 21);
             this.labelVoltar.TabIndex = 74;
             this.labelVoltar.Text = "Voltar";
             this.labelVoltar.Click += new System.EventHandler(this.labelVoltar_Click);
@@ -102,9 +104,10 @@
             this.btnVoltar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnVoltar.BackgroundImage")));
             this.btnVoltar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnVoltar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnVoltar.Location = new System.Drawing.Point(148, 303);
+            this.btnVoltar.Location = new System.Drawing.Point(111, 246);
+            this.btnVoltar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnVoltar.Name = "btnVoltar";
-            this.btnVoltar.Size = new System.Drawing.Size(31, 29);
+            this.btnVoltar.Size = new System.Drawing.Size(23, 24);
             this.btnVoltar.TabIndex = 73;
             this.btnVoltar.TabStop = false;
             this.btnVoltar.Click += new System.EventHandler(this.btnVoltar_Click);
@@ -115,9 +118,10 @@
             this.labelClientes.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(254)))), ((int)(((byte)(240)))));
             this.labelClientes.Font = new System.Drawing.Font("Microsoft YaHei", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelClientes.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
-            this.labelClientes.Location = new System.Drawing.Point(210, 328);
+            this.labelClientes.Location = new System.Drawing.Point(158, 266);
+            this.labelClientes.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelClientes.Name = "labelClientes";
-            this.labelClientes.Size = new System.Drawing.Size(207, 40);
+            this.labelClientes.Size = new System.Drawing.Size(168, 31);
             this.labelClientes.TabIndex = 72;
             this.labelClientes.Text = "labelClientes";
             // 
@@ -127,10 +131,9 @@
             this.labelNomeUsuario.BackColor = System.Drawing.Color.Transparent;
             this.labelNomeUsuario.Cursor = System.Windows.Forms.Cursors.Hand;
             this.labelNomeUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelNomeUsuario.Location = new System.Drawing.Point(1620, 27);
-            this.labelNomeUsuario.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labelNomeUsuario.Location = new System.Drawing.Point(1215, 22);
             this.labelNomeUsuario.Name = "labelNomeUsuario";
-            this.labelNomeUsuario.Size = new System.Drawing.Size(85, 29);
+            this.labelNomeUsuario.Size = new System.Drawing.Size(66, 24);
             this.labelNomeUsuario.TabIndex = 76;
             this.labelNomeUsuario.Text = "label2";
             this.labelNomeUsuario.Click += new System.EventHandler(this.labelNomeUsuario_Click);
@@ -140,10 +143,9 @@
             this.iconPerfil.BackColor = System.Drawing.Color.Transparent;
             this.iconPerfil.Cursor = System.Windows.Forms.Cursors.Hand;
             this.iconPerfil.Image = global::over.Properties.Resources.iconPerfil;
-            this.iconPerfil.Location = new System.Drawing.Point(1565, 13);
-            this.iconPerfil.Margin = new System.Windows.Forms.Padding(4);
+            this.iconPerfil.Location = new System.Drawing.Point(1174, 11);
             this.iconPerfil.Name = "iconPerfil";
-            this.iconPerfil.Size = new System.Drawing.Size(47, 52);
+            this.iconPerfil.Size = new System.Drawing.Size(35, 42);
             this.iconPerfil.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.iconPerfil.TabIndex = 75;
             this.iconPerfil.TabStop = false;
@@ -190,8 +192,7 @@
             this.complementoDataGridViewTextBoxColumn});
             this.gridClientes.DataSource = this.clientesBindingSource;
             this.gridClientes.EnableHeadersVisualStyles = false;
-            this.gridClientes.Location = new System.Drawing.Point(156, 415);
-            this.gridClientes.Margin = new System.Windows.Forms.Padding(4);
+            this.gridClientes.Location = new System.Drawing.Point(117, 337);
             this.gridClientes.Name = "gridClientes";
             this.gridClientes.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Sunken;
             this.gridClientes.RowHeadersVisible = false;
@@ -205,7 +206,7 @@
             this.gridClientes.RowTemplate.Height = 24;
             this.gridClientes.RowTemplate.Resizable = System.Windows.Forms.DataGridViewTriState.False;
             this.gridClientes.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.gridClientes.Size = new System.Drawing.Size(1484, 314);
+            this.gridClientes.Size = new System.Drawing.Size(1113, 255);
             this.gridClientes.TabIndex = 77;
             // 
             // idDataGridViewTextBoxColumn
@@ -304,9 +305,10 @@
             this.labelPesquisarPorNome.BackColor = System.Drawing.Color.Transparent;
             this.labelPesquisarPorNome.Font = new System.Drawing.Font("Microsoft YaHei Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelPesquisarPorNome.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.labelPesquisarPorNome.Location = new System.Drawing.Point(199, 167);
+            this.labelPesquisarPorNome.Location = new System.Drawing.Point(149, 136);
+            this.labelPesquisarPorNome.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelPesquisarPorNome.Name = "labelPesquisarPorNome";
-            this.labelPesquisarPorNome.Size = new System.Drawing.Size(196, 27);
+            this.labelPesquisarPorNome.Size = new System.Drawing.Size(161, 21);
             this.labelPesquisarPorNome.TabIndex = 79;
             this.labelPesquisarPorNome.Text = "Pesquisar por Nome";
             // 
@@ -315,10 +317,10 @@
             this.textBoxPesquisaPorNome.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(160)))), ((int)(((byte)(109)))));
             this.textBoxPesquisaPorNome.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxPesquisaPorNome.ForeColor = System.Drawing.Color.White;
-            this.textBoxPesquisaPorNome.Location = new System.Drawing.Point(184, 158);
+            this.textBoxPesquisaPorNome.Location = new System.Drawing.Point(138, 128);
             this.textBoxPesquisaPorNome.Margin = new System.Windows.Forms.Padding(0);
             this.textBoxPesquisaPorNome.Name = "textBoxPesquisaPorNome";
-            this.textBoxPesquisaPorNome.Size = new System.Drawing.Size(558, 41);
+            this.textBoxPesquisaPorNome.Size = new System.Drawing.Size(420, 35);
             this.textBoxPesquisaPorNome.TabIndex = 78;
             this.textBoxPesquisaPorNome.TextChanged += new System.EventHandler(this.textBoxPesquisaPorNome_TextChanged);
             // 
@@ -328,9 +330,10 @@
             this.labelPesquisarPorCNPJ.BackColor = System.Drawing.Color.Transparent;
             this.labelPesquisarPorCNPJ.Font = new System.Drawing.Font("Microsoft YaHei Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelPesquisarPorCNPJ.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.labelPesquisarPorCNPJ.Location = new System.Drawing.Point(775, 167);
+            this.labelPesquisarPorCNPJ.Location = new System.Drawing.Point(581, 136);
+            this.labelPesquisarPorCNPJ.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelPesquisarPorCNPJ.Name = "labelPesquisarPorCNPJ";
-            this.labelPesquisarPorCNPJ.Size = new System.Drawing.Size(187, 27);
+            this.labelPesquisarPorCNPJ.Size = new System.Drawing.Size(154, 21);
             this.labelPesquisarPorCNPJ.TabIndex = 81;
             this.labelPesquisarPorCNPJ.Text = "Pesquisar por CNPJ";
             // 
@@ -339,10 +342,10 @@
             this.textBoxPesquisaPorCNPJ.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(160)))), ((int)(((byte)(109)))));
             this.textBoxPesquisaPorCNPJ.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxPesquisaPorCNPJ.ForeColor = System.Drawing.Color.White;
-            this.textBoxPesquisaPorCNPJ.Location = new System.Drawing.Point(760, 158);
+            this.textBoxPesquisaPorCNPJ.Location = new System.Drawing.Point(570, 128);
             this.textBoxPesquisaPorCNPJ.Margin = new System.Windows.Forms.Padding(0);
             this.textBoxPesquisaPorCNPJ.Name = "textBoxPesquisaPorCNPJ";
-            this.textBoxPesquisaPorCNPJ.Size = new System.Drawing.Size(337, 41);
+            this.textBoxPesquisaPorCNPJ.Size = new System.Drawing.Size(254, 35);
             this.textBoxPesquisaPorCNPJ.TabIndex = 80;
             this.textBoxPesquisaPorCNPJ.TextChanged += new System.EventHandler(this.textBoxPesquisaPorCNPJ_TextChanged);
             // 
@@ -352,9 +355,10 @@
             this.labelPesquisarPorCEP.BackColor = System.Drawing.Color.Transparent;
             this.labelPesquisarPorCEP.Font = new System.Drawing.Font("Microsoft YaHei Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelPesquisarPorCEP.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.labelPesquisarPorCEP.Location = new System.Drawing.Point(1138, 167);
+            this.labelPesquisarPorCEP.Location = new System.Drawing.Point(854, 136);
+            this.labelPesquisarPorCEP.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelPesquisarPorCEP.Name = "labelPesquisarPorCEP";
-            this.labelPesquisarPorCEP.Size = new System.Drawing.Size(176, 27);
+            this.labelPesquisarPorCEP.Size = new System.Drawing.Size(145, 21);
             this.labelPesquisarPorCEP.TabIndex = 83;
             this.labelPesquisarPorCEP.Text = "Pesquisar por CEP";
             // 
@@ -363,10 +367,10 @@
             this.textBoxPesquisaPorCEP.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(160)))), ((int)(((byte)(109)))));
             this.textBoxPesquisaPorCEP.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxPesquisaPorCEP.ForeColor = System.Drawing.Color.White;
-            this.textBoxPesquisaPorCEP.Location = new System.Drawing.Point(1123, 158);
+            this.textBoxPesquisaPorCEP.Location = new System.Drawing.Point(842, 128);
             this.textBoxPesquisaPorCEP.Margin = new System.Windows.Forms.Padding(0);
             this.textBoxPesquisaPorCEP.Name = "textBoxPesquisaPorCEP";
-            this.textBoxPesquisaPorCEP.Size = new System.Drawing.Size(337, 41);
+            this.textBoxPesquisaPorCEP.Size = new System.Drawing.Size(254, 35);
             this.textBoxPesquisaPorCEP.TabIndex = 82;
             this.textBoxPesquisaPorCEP.TextChanged += new System.EventHandler(this.textBoxPesquisaPorCEP_TextChanged);
             // 
@@ -374,9 +378,10 @@
             // 
             this.btnAtualizar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnAtualizar.Image = ((System.Drawing.Image)(resources.GetObject("btnAtualizar.Image")));
-            this.btnAtualizar.Location = new System.Drawing.Point(1096, 318);
+            this.btnAtualizar.Location = new System.Drawing.Point(822, 258);
+            this.btnAtualizar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnAtualizar.Name = "btnAtualizar";
-            this.btnAtualizar.Size = new System.Drawing.Size(234, 50);
+            this.btnAtualizar.Size = new System.Drawing.Size(176, 41);
             this.btnAtualizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.btnAtualizar.TabIndex = 84;
             this.btnAtualizar.TabStop = false;
@@ -386,9 +391,10 @@
             // 
             this.btnCadastrarCliente.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnCadastrarCliente.Image = global::over.Properties.Resources.btnCadastrarCliente;
-            this.btnCadastrarCliente.Location = new System.Drawing.Point(1336, 318);
+            this.btnCadastrarCliente.Location = new System.Drawing.Point(1002, 258);
+            this.btnCadastrarCliente.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnCadastrarCliente.Name = "btnCadastrarCliente";
-            this.btnCadastrarCliente.Size = new System.Drawing.Size(284, 50);
+            this.btnCadastrarCliente.Size = new System.Drawing.Size(213, 41);
             this.btnCadastrarCliente.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.btnCadastrarCliente.TabIndex = 85;
             this.btnCadastrarCliente.TabStop = false;
@@ -396,11 +402,11 @@
             // 
             // Clientes
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::over.Properties.Resources.telaVendas;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1740, 782);
+            this.ClientSize = new System.Drawing.Size(1305, 635);
             this.Controls.Add(this.btnCadastrarCliente);
             this.Controls.Add(this.btnAtualizar);
             this.Controls.Add(this.labelPesquisarPorCEP);
@@ -418,7 +424,9 @@
             this.Controls.Add(this.btnExportarDados);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Clientes";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Clientes";
             this.Load += new System.EventHandler(this.Clientes_Load);
             ((System.ComponentModel.ISupportInitialize)(this.btnExportarDados)).EndInit();

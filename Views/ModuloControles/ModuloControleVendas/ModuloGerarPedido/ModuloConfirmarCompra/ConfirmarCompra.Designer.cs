@@ -57,7 +57,7 @@
             "PIX",
             "Cartão"});
             this.comboBoxMetodosDePagamento.Location = new System.Drawing.Point(754, 431);
-            this.comboBoxMetodosDePagamento.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.comboBoxMetodosDePagamento.Margin = new System.Windows.Forms.Padding(2);
             this.comboBoxMetodosDePagamento.Name = "comboBoxMetodosDePagamento";
             this.comboBoxMetodosDePagamento.Size = new System.Drawing.Size(205, 44);
             this.comboBoxMetodosDePagamento.TabIndex = 65;
@@ -105,7 +105,7 @@
             this.TotalCompra});
             this.dataGridViewPedido.EnableHeadersVisualStyles = false;
             this.dataGridViewPedido.Location = new System.Drawing.Point(633, 268);
-            this.dataGridViewPedido.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dataGridViewPedido.Margin = new System.Windows.Forms.Padding(2);
             this.dataGridViewPedido.Name = "dataGridViewPedido";
             this.dataGridViewPedido.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Sunken;
             this.dataGridViewPedido.RowHeadersVisible = false;
@@ -179,7 +179,7 @@
             this.buttonCancelar.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonCancelar.ForeColor = System.Drawing.Color.White;
             this.buttonCancelar.Location = new System.Drawing.Point(762, 518);
-            this.buttonCancelar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonCancelar.Margin = new System.Windows.Forms.Padding(2);
             this.buttonCancelar.Name = "buttonCancelar";
             this.buttonCancelar.Size = new System.Drawing.Size(142, 32);
             this.buttonCancelar.TabIndex = 68;
@@ -193,7 +193,7 @@
             this.voltarProdutos.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.voltarProdutos.Cursor = System.Windows.Forms.Cursors.Hand;
             this.voltarProdutos.Location = new System.Drawing.Point(584, 161);
-            this.voltarProdutos.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.voltarProdutos.Margin = new System.Windows.Forms.Padding(2);
             this.voltarProdutos.Name = "voltarProdutos";
             this.voltarProdutos.Size = new System.Drawing.Size(42, 41);
             this.voltarProdutos.TabIndex = 69;
@@ -238,7 +238,7 @@
             this.btnIrParaPagamento.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnIrParaPagamento.ForeColor = System.Drawing.Color.White;
             this.btnIrParaPagamento.Location = new System.Drawing.Point(950, 518);
-            this.btnIrParaPagamento.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnIrParaPagamento.Margin = new System.Windows.Forms.Padding(2);
             this.btnIrParaPagamento.Name = "btnIrParaPagamento";
             this.btnIrParaPagamento.Size = new System.Drawing.Size(167, 32);
             this.btnIrParaPagamento.TabIndex = 72;
@@ -262,6 +262,7 @@
             this.Controls.Add(this.labelTotal);
             this.Controls.Add(this.comboBoxMetodosDePagamento);
             this.Name = "ConfirmarCompra";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ConfirmarCompra";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewPedido)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.voltarProdutos)).EndInit();

@@ -40,6 +40,13 @@
             this.labelVoltar = new System.Windows.Forms.Label();
             this.btnVoltar = new System.Windows.Forms.PictureBox();
             this.gridProdutos = new System.Windows.Forms.DataGridView();
+            this.iDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.iDClienteDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.iDProdutoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.quantidadeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.totalCompraDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.codigoCompraDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.metodoPagamentoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.vendasBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this._databasefazenda_1DataSet = new over._databasefazenda_1DataSet();
             this.vendasTableAdapter = new over._databasefazenda_1DataSetTableAdapters.VendasTableAdapter();
@@ -50,13 +57,6 @@
             this.labelPesquisaPorIDProduto = new System.Windows.Forms.Label();
             this.labelPesquisaPorIDCliente = new System.Windows.Forms.Label();
             this.textBoxPesquisaIDCliente = new System.Windows.Forms.TextBox();
-            this.iDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.iDClienteDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.iDProdutoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.quantidadeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.totalCompraDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.codigoCompraDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.metodoPagamentoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.iconPerfil)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnVoltar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridProdutos)).BeginInit();
@@ -125,7 +125,7 @@
             this.btnVoltar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnVoltar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnVoltar.Location = new System.Drawing.Point(110, 246);
-            this.btnVoltar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnVoltar.Margin = new System.Windows.Forms.Padding(2);
             this.btnVoltar.Name = "btnVoltar";
             this.btnVoltar.Size = new System.Drawing.Size(23, 24);
             this.btnVoltar.TabIndex = 67;
@@ -187,6 +187,60 @@
             this.gridProdutos.Size = new System.Drawing.Size(1107, 255);
             this.gridProdutos.TabIndex = 69;
             // 
+            // iDDataGridViewTextBoxColumn
+            // 
+            this.iDDataGridViewTextBoxColumn.DataPropertyName = "ID";
+            this.iDDataGridViewTextBoxColumn.HeaderText = "ID";
+            this.iDDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.iDDataGridViewTextBoxColumn.Name = "iDDataGridViewTextBoxColumn";
+            this.iDDataGridViewTextBoxColumn.ReadOnly = true;
+            this.iDDataGridViewTextBoxColumn.Visible = false;
+            // 
+            // iDClienteDataGridViewTextBoxColumn
+            // 
+            this.iDClienteDataGridViewTextBoxColumn.DataPropertyName = "ID_Cliente";
+            this.iDClienteDataGridViewTextBoxColumn.HeaderText = "ID Cliente";
+            this.iDClienteDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.iDClienteDataGridViewTextBoxColumn.Name = "iDClienteDataGridViewTextBoxColumn";
+            // 
+            // iDProdutoDataGridViewTextBoxColumn
+            // 
+            this.iDProdutoDataGridViewTextBoxColumn.DataPropertyName = "ID_Produto";
+            this.iDProdutoDataGridViewTextBoxColumn.HeaderText = "ID Produto";
+            this.iDProdutoDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.iDProdutoDataGridViewTextBoxColumn.Name = "iDProdutoDataGridViewTextBoxColumn";
+            // 
+            // quantidadeDataGridViewTextBoxColumn
+            // 
+            this.quantidadeDataGridViewTextBoxColumn.DataPropertyName = "Quantidade";
+            this.quantidadeDataGridViewTextBoxColumn.HeaderText = "Quantidade";
+            this.quantidadeDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.quantidadeDataGridViewTextBoxColumn.Name = "quantidadeDataGridViewTextBoxColumn";
+            // 
+            // totalCompraDataGridViewTextBoxColumn
+            // 
+            this.totalCompraDataGridViewTextBoxColumn.DataPropertyName = "TotalCompra";
+            dataGridViewCellStyle3.Format = "C2";
+            dataGridViewCellStyle3.NullValue = null;
+            this.totalCompraDataGridViewTextBoxColumn.DefaultCellStyle = dataGridViewCellStyle3;
+            this.totalCompraDataGridViewTextBoxColumn.HeaderText = "Total Compra";
+            this.totalCompraDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.totalCompraDataGridViewTextBoxColumn.Name = "totalCompraDataGridViewTextBoxColumn";
+            // 
+            // codigoCompraDataGridViewTextBoxColumn
+            // 
+            this.codigoCompraDataGridViewTextBoxColumn.DataPropertyName = "CodigoCompra";
+            this.codigoCompraDataGridViewTextBoxColumn.HeaderText = "Cod. da Compra";
+            this.codigoCompraDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.codigoCompraDataGridViewTextBoxColumn.Name = "codigoCompraDataGridViewTextBoxColumn";
+            // 
+            // metodoPagamentoDataGridViewTextBoxColumn
+            // 
+            this.metodoPagamentoDataGridViewTextBoxColumn.DataPropertyName = "MetodoPagamento";
+            this.metodoPagamentoDataGridViewTextBoxColumn.HeaderText = "Met. de Pagamen.";
+            this.metodoPagamentoDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.metodoPagamentoDataGridViewTextBoxColumn.Name = "metodoPagamentoDataGridViewTextBoxColumn";
+            // 
             // vendasBindingSource
             // 
             this.vendasBindingSource.DataMember = "Vendas";
@@ -206,7 +260,7 @@
             this.btnExportarDados.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnExportarDados.Image = global::over.Properties.Resources.Captura_de_tela_2024_11_02_194810;
             this.btnExportarDados.Location = new System.Drawing.Point(138, 179);
-            this.btnExportarDados.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnExportarDados.Margin = new System.Windows.Forms.Padding(2);
             this.btnExportarDados.Name = "btnExportarDados";
             this.btnExportarDados.Size = new System.Drawing.Size(296, 34);
             this.btnExportarDados.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -289,60 +343,6 @@
             this.textBoxPesquisaIDCliente.TabIndex = 75;
             this.textBoxPesquisaIDCliente.TextChanged += new System.EventHandler(this.textBoxPesquisaIDCliente_TextChanged);
             // 
-            // iDDataGridViewTextBoxColumn
-            // 
-            this.iDDataGridViewTextBoxColumn.DataPropertyName = "ID";
-            this.iDDataGridViewTextBoxColumn.HeaderText = "ID";
-            this.iDDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.iDDataGridViewTextBoxColumn.Name = "iDDataGridViewTextBoxColumn";
-            this.iDDataGridViewTextBoxColumn.ReadOnly = true;
-            this.iDDataGridViewTextBoxColumn.Visible = false;
-            // 
-            // iDClienteDataGridViewTextBoxColumn
-            // 
-            this.iDClienteDataGridViewTextBoxColumn.DataPropertyName = "ID_Cliente";
-            this.iDClienteDataGridViewTextBoxColumn.HeaderText = "ID Cliente";
-            this.iDClienteDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.iDClienteDataGridViewTextBoxColumn.Name = "iDClienteDataGridViewTextBoxColumn";
-            // 
-            // iDProdutoDataGridViewTextBoxColumn
-            // 
-            this.iDProdutoDataGridViewTextBoxColumn.DataPropertyName = "ID_Produto";
-            this.iDProdutoDataGridViewTextBoxColumn.HeaderText = "ID Produto";
-            this.iDProdutoDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.iDProdutoDataGridViewTextBoxColumn.Name = "iDProdutoDataGridViewTextBoxColumn";
-            // 
-            // quantidadeDataGridViewTextBoxColumn
-            // 
-            this.quantidadeDataGridViewTextBoxColumn.DataPropertyName = "Quantidade";
-            this.quantidadeDataGridViewTextBoxColumn.HeaderText = "Quantidade";
-            this.quantidadeDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.quantidadeDataGridViewTextBoxColumn.Name = "quantidadeDataGridViewTextBoxColumn";
-            // 
-            // totalCompraDataGridViewTextBoxColumn
-            // 
-            this.totalCompraDataGridViewTextBoxColumn.DataPropertyName = "TotalCompra";
-            dataGridViewCellStyle3.Format = "C2";
-            dataGridViewCellStyle3.NullValue = null;
-            this.totalCompraDataGridViewTextBoxColumn.DefaultCellStyle = dataGridViewCellStyle3;
-            this.totalCompraDataGridViewTextBoxColumn.HeaderText = "Total Compra";
-            this.totalCompraDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.totalCompraDataGridViewTextBoxColumn.Name = "totalCompraDataGridViewTextBoxColumn";
-            // 
-            // codigoCompraDataGridViewTextBoxColumn
-            // 
-            this.codigoCompraDataGridViewTextBoxColumn.DataPropertyName = "CodigoCompra";
-            this.codigoCompraDataGridViewTextBoxColumn.HeaderText = "Cod. da Compra";
-            this.codigoCompraDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.codigoCompraDataGridViewTextBoxColumn.Name = "codigoCompraDataGridViewTextBoxColumn";
-            // 
-            // metodoPagamentoDataGridViewTextBoxColumn
-            // 
-            this.metodoPagamentoDataGridViewTextBoxColumn.DataPropertyName = "MetodoPagamento";
-            this.metodoPagamentoDataGridViewTextBoxColumn.HeaderText = "Met. de Pagamen.";
-            this.metodoPagamentoDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.metodoPagamentoDataGridViewTextBoxColumn.Name = "metodoPagamentoDataGridViewTextBoxColumn";
-            // 
             // Vendas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -365,8 +365,9 @@
             this.Controls.Add(this.iconPerfil);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Vendas";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Vendas";
             this.Load += new System.EventHandler(this.Vendas_Load);
             ((System.ComponentModel.ISupportInitialize)(this.iconPerfil)).EndInit();

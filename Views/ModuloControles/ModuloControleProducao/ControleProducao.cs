@@ -64,5 +64,9 @@ namespace over {
         {
             FormNavigator.GoBack(this);
         }
+
+        private void ControleProducao_Load(object sender, EventArgs e) {
+
+        }
     }
 }

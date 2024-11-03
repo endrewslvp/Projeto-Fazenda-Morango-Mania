@@ -12,7 +12,7 @@ namespace over
 {
     internal class Conexao
     {
-        string connectionString = @"Data Source=tcp:databasefazenda-1.database.windows.net,1433;Initial Catalog=databasefazenda-1;User ID={id};Password={senha};";
+        string connectionString = @"Data Source=tcp:databasefazenda-1.database.windows.net,1433;Initial Catalog=databasefazenda-1;User ID=databaseadmin;Password=Code_DataSQL#;";
         private SqlCommand command;
 
         public List<string> Coluna = new List<string>();

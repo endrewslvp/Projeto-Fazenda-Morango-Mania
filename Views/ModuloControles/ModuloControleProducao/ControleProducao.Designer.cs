@@ -188,6 +188,7 @@
             this.Name = "ControleProducao";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ControleProducao";
+            this.Load += new System.EventHandler(this.ControleProducao_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxVoltarCadastro)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.iconPerfil)).EndInit();
             this.ResumeLayout(false);

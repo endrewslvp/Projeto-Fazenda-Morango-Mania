@@ -130,7 +130,7 @@
             this.btnAtualizar.Font = new System.Drawing.Font("Microsoft YaHei", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAtualizar.ForeColor = System.Drawing.Color.White;
             this.btnAtualizar.Location = new System.Drawing.Point(1026, 528);
-            this.btnAtualizar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnAtualizar.Margin = new System.Windows.Forms.Padding(2);
             this.btnAtualizar.Name = "btnAtualizar";
             this.btnAtualizar.Size = new System.Drawing.Size(104, 24);
             this.btnAtualizar.TabIndex = 54;
@@ -151,7 +151,7 @@
             this.buttonCancelar.Font = new System.Drawing.Font("Microsoft YaHei", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonCancelar.ForeColor = System.Drawing.Color.White;
             this.buttonCancelar.Location = new System.Drawing.Point(894, 528);
-            this.buttonCancelar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonCancelar.Margin = new System.Windows.Forms.Padding(2);
             this.buttonCancelar.Name = "buttonCancelar";
             this.buttonCancelar.Size = new System.Drawing.Size(99, 24);
             this.buttonCancelar.TabIndex = 55;
@@ -204,6 +204,7 @@
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Name = "ControleUsuario";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ControleUsuario";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxVoltarCadastro)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.iconPerfil)).EndInit();

@@ -68,7 +68,7 @@
             this.voltarProdutos.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.voltarProdutos.Cursor = System.Windows.Forms.Cursors.Hand;
             this.voltarProdutos.Location = new System.Drawing.Point(217, 150);
-            this.voltarProdutos.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.voltarProdutos.Margin = new System.Windows.Forms.Padding(2);
             this.voltarProdutos.Name = "voltarProdutos";
             this.voltarProdutos.Size = new System.Drawing.Size(42, 41);
             this.voltarProdutos.TabIndex = 16;
@@ -134,7 +134,7 @@
             this.textBoxNome.Font = new System.Drawing.Font("Microsoft Sans Serif", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxNome.ForeColor = System.Drawing.Color.Gray;
             this.textBoxNome.Location = new System.Drawing.Point(263, 248);
-            this.textBoxNome.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxNome.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxNome.Name = "textBoxNome";
             this.textBoxNome.Size = new System.Drawing.Size(316, 41);
             this.textBoxNome.TabIndex = 1;
@@ -187,7 +187,7 @@
             this.textBoxEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxEmail.ForeColor = System.Drawing.Color.Gray;
             this.textBoxEmail.Location = new System.Drawing.Point(263, 352);
-            this.textBoxEmail.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxEmail.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxEmail.Name = "textBoxEmail";
             this.textBoxEmail.Size = new System.Drawing.Size(227, 41);
             this.textBoxEmail.TabIndex = 3;
@@ -227,7 +227,7 @@
             this.textBoxNumero.Font = new System.Drawing.Font("Microsoft Sans Serif", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxNumero.ForeColor = System.Drawing.Color.Gray;
             this.textBoxNumero.Location = new System.Drawing.Point(484, 458);
-            this.textBoxNumero.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxNumero.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxNumero.Name = "textBoxNumero";
             this.textBoxNumero.Size = new System.Drawing.Size(83, 41);
             this.textBoxNumero.TabIndex = 6;
@@ -344,7 +344,7 @@
             this.textBoxComplemento.Font = new System.Drawing.Font("Microsoft Sans Serif", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxComplemento.ForeColor = System.Drawing.Color.Gray;
             this.textBoxComplemento.Location = new System.Drawing.Point(872, 458);
-            this.textBoxComplemento.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxComplemento.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxComplemento.Name = "textBoxComplemento";
             this.textBoxComplemento.Size = new System.Drawing.Size(110, 41);
             this.textBoxComplemento.TabIndex = 7;
@@ -375,7 +375,7 @@
             this.buttonCancelar.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonCancelar.ForeColor = System.Drawing.Color.White;
             this.buttonCancelar.Location = new System.Drawing.Point(818, 527);
-            this.buttonCancelar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonCancelar.Margin = new System.Windows.Forms.Padding(2);
             this.buttonCancelar.Name = "buttonCancelar";
             this.buttonCancelar.Size = new System.Drawing.Size(130, 32);
             this.buttonCancelar.TabIndex = 93;
@@ -397,7 +397,7 @@
             this.buttonCadastrar.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonCadastrar.ForeColor = System.Drawing.Color.White;
             this.buttonCadastrar.Location = new System.Drawing.Point(987, 526);
-            this.buttonCadastrar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonCadastrar.Margin = new System.Windows.Forms.Padding(2);
             this.buttonCadastrar.Name = "buttonCadastrar";
             this.buttonCadastrar.Size = new System.Drawing.Size(127, 32);
             this.buttonCadastrar.TabIndex = 94;
@@ -424,7 +424,7 @@
             this.maskedTextBoxCEP.Font = new System.Drawing.Font("Microsoft Sans Serif", 22.2F);
             this.maskedTextBoxCEP.ForeColor = System.Drawing.Color.Gray;
             this.maskedTextBoxCEP.Location = new System.Drawing.Point(848, 352);
-            this.maskedTextBoxCEP.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.maskedTextBoxCEP.Margin = new System.Windows.Forms.Padding(2);
             this.maskedTextBoxCEP.Mask = "00000-000";
             this.maskedTextBoxCEP.Name = "maskedTextBoxCEP";
             this.maskedTextBoxCEP.Size = new System.Drawing.Size(186, 41);
@@ -437,7 +437,7 @@
             this.maskedTextBoxTelefone.Font = new System.Drawing.Font("Microsoft Sans Serif", 22.2F);
             this.maskedTextBoxTelefone.ForeColor = System.Drawing.Color.Gray;
             this.maskedTextBoxTelefone.Location = new System.Drawing.Point(617, 248);
-            this.maskedTextBoxTelefone.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.maskedTextBoxTelefone.Margin = new System.Windows.Forms.Padding(2);
             this.maskedTextBoxTelefone.Mask = "(00) 00000-0000";
             this.maskedTextBoxTelefone.Name = "maskedTextBoxTelefone";
             this.maskedTextBoxTelefone.Size = new System.Drawing.Size(242, 41);
@@ -494,8 +494,9 @@
             this.Controls.Add(this.maskedTextBoxCNPJ);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "CadastroCliente";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CadastroCliente";
             ((System.ComponentModel.ISupportInitialize)(this.voltarProdutos)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.iconPerfil)).EndInit();
