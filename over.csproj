@@ -1,0 +1,492 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4BF9560D-C9F7-4824-8EAA-30FA7D8952D7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>over</RootNamespace>
+    <AssemblyName>over</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BouncyCastle.Cryptography, Version=2.0.0.0, Culture=neutral, PublicKeyToken=072edcf4a5328938, processorArchitecture=MSIL">
+      <HintPath>packages\BouncyCastle.Cryptography.2.4.0\lib\net461\BouncyCastle.Cryptography.dll</HintPath>
+    </Reference>
+    <Reference Include="itext.barcodes, Version=8.0.5.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>packages\itext.8.0.5\lib\net461\itext.barcodes.dll</HintPath>
+    </Reference>
+    <Reference Include="itext.bouncy-castle-connector, Version=8.0.5.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>packages\itext.8.0.5\lib\net461\itext.bouncy-castle-connector.dll</HintPath>
+    </Reference>
+    <Reference Include="itext.commons, Version=8.0.5.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>packages\itext.commons.8.0.5\lib\net461\itext.commons.dll</HintPath>
+    </Reference>
+    <Reference Include="itext.forms, Version=8.0.5.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>packages\itext.8.0.5\lib\net461\itext.forms.dll</HintPath>
+    </Reference>
+    <Reference Include="itext.io, Version=8.0.5.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>packages\itext.8.0.5\lib\net461\itext.io.dll</HintPath>
+    </Reference>
+    <Reference Include="itext.kernel, Version=8.0.5.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>packages\itext.8.0.5\lib\net461\itext.kernel.dll</HintPath>
+    </Reference>
+    <Reference Include="itext.layout, Version=8.0.5.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>packages\itext.8.0.5\lib\net461\itext.layout.dll</HintPath>
+    </Reference>
+    <Reference Include="itext.pdfa, Version=8.0.5.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>packages\itext.8.0.5\lib\net461\itext.pdfa.dll</HintPath>
+    </Reference>
+    <Reference Include="itext.pdfua, Version=8.0.5.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>packages\itext.8.0.5\lib\net461\itext.pdfua.dll</HintPath>
+    </Reference>
+    <Reference Include="itext.sign, Version=8.0.5.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>packages\itext.8.0.5\lib\net461\itext.sign.dll</HintPath>
+    </Reference>
+    <Reference Include="itext.styledxmlparser, Version=8.0.5.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>packages\itext.8.0.5\lib\net461\itext.styledxmlparser.dll</HintPath>
+    </Reference>
+    <Reference Include="itext.svg, Version=8.0.5.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>packages\itext.8.0.5\lib\net461\itext.svg.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp, Version=5.5.13.4, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>packages\iTextSharp.5.5.13.4\lib\net461\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Bcl.AsyncInterfaces.5.0.0\lib\net461\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.DependencyInjection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Extensions.DependencyInjection.5.0.0\lib\net461\Microsoft.Extensions.DependencyInjection.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Extensions.DependencyInjection.Abstractions.5.0.0\lib\net461\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Logging, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Extensions.Logging.5.0.0\lib\net461\Microsoft.Extensions.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Logging.Abstractions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Extensions.Logging.Abstractions.5.0.0\lib\net461\Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Options, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Extensions.Options.5.0.0\lib\net461\Microsoft.Extensions.Options.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Primitives, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Extensions.Primitives.5.0.0\lib\net461\Microsoft.Extensions.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="QRCoder, Version=1.6.0.0, Culture=neutral, PublicKeyToken=c4ed5b9ae8358a28, processorArchitecture=MSIL">
+      <HintPath>packages\QRCoder.1.6.0\lib\net40\QRCoder.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Diagnostics.DiagnosticSource, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Diagnostics.DiagnosticSource.5.0.0\lib\net46\System.Diagnostics.DiagnosticSource.dll</HintPath>
+    </Reference>
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Memory, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Memory.4.5.4\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Runtime.CompilerServices.Unsafe.5.0.0\lib\net45\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.ValueTuple.4.5.0\lib\net47\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Funcionalidades\APICorreios.cs" />
+    <Compile Include="Funcionalidades\EscurecimentoFundo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Funcionalidades\EscurecimentoFundo.Designer.cs">
+      <DependentUpon>EscurecimentoFundo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Funcionalidades\GerarCodigoDeCompra.cs" />
+    <Compile Include="Views\ModuloControles\ModuloControleProducao\ModuloProdutos\ModuloCadastro\CadastroProduto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\ModuloControles\ModuloControleProducao\ModuloProdutos\ModuloCadastro\CadastroProduto.Designer.cs">
+      <DependentUpon>CadastroProduto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ModuloADM\ModuloControleUsuario\CadastroUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\ModuloADM\ModuloControleUsuario\CadastroUsuario.Designer.cs">
+      <DependentUpon>CadastroUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Funcionalidades\Conexao.cs" />
+    <Compile Include="Views\ModuloControles\ModuloControleVendas\ModuloClientes\Clientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\ModuloControles\ModuloControleVendas\ModuloClientes\Clientes.Designer.cs">
+      <DependentUpon>Clientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ModuloControles\ModuloControleVendas\ModuloClientes\ModuloCadastro\CadastroCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\ModuloControles\ModuloControleVendas\ModuloClientes\ModuloCadastro\CadastroCliente.Designer.cs">
+      <DependentUpon>CadastroCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ModuloControles\ModuloControleVendas\ModuloGerarPedido\ModuloConfirmarCompra\ConfirmarCompra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\ModuloControles\ModuloControleVendas\ModuloGerarPedido\ModuloConfirmarCompra\ConfirmarCompra.Designer.cs">
+      <DependentUpon>ConfirmarCompra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ModuloControles\ModuloControleProducao\ControleProducao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\ModuloControles\ModuloControleProducao\ControleProducao.Designer.cs">
+      <DependentUpon>ControleProducao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ModuloControles\ModuloControleRH\ControleRh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\ModuloControles\ModuloControleRH\ControleRh.Designer.cs">
+      <DependentUpon>ControleRh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ModuloADM\ModuloControleUsuario\ControleUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\ModuloADM\ModuloControleUsuario\ControleUsuario.Designer.cs">
+      <DependentUpon>ControleUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ModuloControles\ModuloControleVendas\ControleVendas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\ModuloControles\ModuloControleVendas\ControleVendas.Designer.cs">
+      <DependentUpon>ControleVendas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Funcionalidades\FormNavigator.cs" />
+    <Compile Include="Views\ModuloControles\ModuloControleVendas\ModuloGerarPedido\EspecificarQuantidade.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\ModuloControles\ModuloControleVendas\ModuloGerarPedido\EspecificarQuantidade.Designer.cs">
+      <DependentUpon>EspecificarQuantidade.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ModuloControles\ModuloControleVendas\ModuloGerarPedido\GerarPedido.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\ModuloControles\ModuloControleVendas\ModuloGerarPedido\GerarPedido.Designer.cs">
+      <DependentUpon>GerarPedido.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ModuloControles\ModuloControleProducao\ModuloProdutos\ModuloInformacoes\InformacoesProdutos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\ModuloControles\ModuloControleProducao\ModuloProdutos\ModuloInformacoes\InformacoesProdutos.Designer.cs">
+      <DependentUpon>InformacoesProdutos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ModuloApresentacao\ModuloInicio\Inicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\ModuloApresentacao\ModuloInicio\Inicio.Designer.cs">
+      <DependentUpon>Inicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ModuloApresentacao\ModuloLogin\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\ModuloApresentacao\ModuloLogin\Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ModuloADM\ModuloPainelDeControle\PaineldeControle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\ModuloADM\ModuloPainelDeControle\PaineldeControle.Designer.cs">
+      <DependentUpon>PaineldeControle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ModuloControles\ModuloControleVendas\ModuloGerarPedido\ModuloPagamento\PixCode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\ModuloControles\ModuloControleVendas\ModuloGerarPedido\ModuloPagamento\PixCode.Designer.cs">
+      <DependentUpon>PixCode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ModuloControles\ModuloControleProducao\ModuloProdutos\Produtos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\ModuloControles\ModuloControleProducao\ModuloProdutos\Produtos.Designer.cs">
+      <DependentUpon>Produtos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Funcionalidades\CriarRelatorios.cs" />
+    <Compile Include="Views\ModuloControles\ModuloControleVendas\ModuloGerarPedido\ModuloPedidoFinalizado\PedidoFinalizado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\ModuloControles\ModuloControleVendas\ModuloGerarPedido\ModuloPedidoFinalizado\PedidoFinalizado.Designer.cs">
+      <DependentUpon>PedidoFinalizado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ModuloControles\ModuloControleVendas\ModuloVendas\Vendas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\ModuloControles\ModuloControleVendas\ModuloVendas\Vendas.Designer.cs">
+      <DependentUpon>Vendas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_databasefazenda_1DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>_databasefazenda_1DataSet.xsd</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Funcionalidades\EscurecimentoFundo.resx">
+      <DependentUpon>EscurecimentoFundo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ModuloControles\ModuloControleProducao\ModuloProdutos\ModuloCadastro\CadastroProduto.resx">
+      <DependentUpon>CadastroProduto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ModuloADM\ModuloControleUsuario\CadastroUsuario.resx">
+      <DependentUpon>CadastroUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ModuloControles\ModuloControleVendas\ModuloClientes\Clientes.resx">
+      <DependentUpon>Clientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ModuloControles\ModuloControleVendas\ModuloClientes\ModuloCadastro\CadastroCliente.resx">
+      <DependentUpon>CadastroCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ModuloControles\ModuloControleVendas\ModuloGerarPedido\ModuloConfirmarCompra\ConfirmarCompra.resx">
+      <DependentUpon>ConfirmarCompra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ModuloControles\ModuloControleProducao\ControleProducao.resx">
+      <DependentUpon>ControleProducao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ModuloControles\ModuloControleRH\ControleRh.resx">
+      <DependentUpon>ControleRh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ModuloADM\ModuloControleUsuario\ControleUsuario.resx">
+      <DependentUpon>ControleUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ModuloControles\ModuloControleVendas\ControleVendas.resx">
+      <DependentUpon>ControleVendas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ModuloControles\ModuloControleVendas\ModuloGerarPedido\EspecificarQuantidade.resx">
+      <DependentUpon>EspecificarQuantidade.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ModuloControles\ModuloControleVendas\ModuloGerarPedido\GerarPedido.resx">
+      <DependentUpon>GerarPedido.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ModuloControles\ModuloControleProducao\ModuloProdutos\ModuloInformacoes\InformacoesProdutos.resx">
+      <DependentUpon>InformacoesProdutos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ModuloApresentacao\ModuloInicio\Inicio.resx">
+      <DependentUpon>Inicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ModuloApresentacao\ModuloLogin\Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ModuloADM\ModuloPainelDeControle\PaineldeControle.resx">
+      <DependentUpon>PaineldeControle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ModuloControles\ModuloControleVendas\ModuloGerarPedido\ModuloPagamento\PixCode.resx">
+      <DependentUpon>PixCode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ModuloControles\ModuloControleProducao\ModuloProdutos\Produtos.resx">
+      <DependentUpon>Produtos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Views\ModuloControles\ModuloControleVendas\ModuloGerarPedido\ModuloPedidoFinalizado\PedidoFinalizado.resx">
+      <DependentUpon>PedidoFinalizado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ModuloControles\ModuloControleVendas\ModuloVendas\Vendas.resx">
+      <DependentUpon>Vendas.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="_databasefazenda_1DataSet.xsc">
+      <DependentUpon>_databasefazenda_1DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="_databasefazenda_1DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>_databasefazenda_1DataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="_databasefazenda_1DataSet.xss">
+      <DependentUpon>_databasefazenda_1DataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\editarIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura de tela 2024-10-20 170847.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnExportar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura de tela 2024-10-20 203317.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnExcluir.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnConfirmar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reloadIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnCadastrarProduto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnCadastrarProduto %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnExportarDados.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\telaSistemaRH.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnColaboradores.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnCargos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconPerfil.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnVoltar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnAtualizarVermelho.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\telaEdicaoUsuario.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\telaCadastrarUsuario.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\telaPainelDeControle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\telaControleProducao.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\telaInicio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\telaInicial.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnLogin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\telaLogintemp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\telaLogin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\telaSistemaVendas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\telaGerarPedido.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\telaGerarPedido %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\telaConfirmarCompra.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\telaPedidoFinalizado.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\telaGerarPedidos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\telaVendas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura de tela 2024-11-02 194810.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnCadastrarCliente.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cadastro Clientes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\telaCadastroCliente.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\telaCadastroCliente %281%29.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

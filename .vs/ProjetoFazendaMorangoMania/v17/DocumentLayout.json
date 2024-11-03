@@ -1,0 +1,287 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Endrew\\Documents\\GitHub\\Projeto-Fazenda-Morango-Mania\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4BF9560D-C9F7-4824-8EAA-30FA7D8952D7}|over.csproj|C:\\Users\\Endrew\\Documents\\GitHub\\Projeto-Fazenda-Morango-Mania\\funcionalidades\\conexao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BF9560D-C9F7-4824-8EAA-30FA7D8952D7}|over.csproj|solutionrelative:funcionalidades\\conexao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BF9560D-C9F7-4824-8EAA-30FA7D8952D7}|over.csproj|c:\\users\\endrew\\documents\\github\\projeto-fazenda-morango-mania\\views\\moduloapresentacao\\modulologin\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BF9560D-C9F7-4824-8EAA-30FA7D8952D7}|over.csproj|solutionrelative:views\\moduloapresentacao\\modulologin\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BF9560D-C9F7-4824-8EAA-30FA7D8952D7}|over.csproj|C:\\Users\\Endrew\\Documents\\GitHub\\Projeto-Fazenda-Morango-Mania\\views\\moduloadm\\modulopaineldecontrole\\paineldecontrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BF9560D-C9F7-4824-8EAA-30FA7D8952D7}|over.csproj|solutionrelative:views\\moduloadm\\modulopaineldecontrole\\paineldecontrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BF9560D-C9F7-4824-8EAA-30FA7D8952D7}|over.csproj|C:\\Users\\Endrew\\Documents\\GitHub\\Projeto-Fazenda-Morango-Mania\\views\\modulocontroles\\modulocontrolevendas\\controlevendas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BF9560D-C9F7-4824-8EAA-30FA7D8952D7}|over.csproj|solutionrelative:views\\modulocontroles\\modulocontrolevendas\\controlevendas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BF9560D-C9F7-4824-8EAA-30FA7D8952D7}|over.csproj|C:\\Users\\Endrew\\Documents\\GitHub\\Projeto-Fazenda-Morango-Mania\\views\\modulocontroles\\modulocontrolevendas\\modulogerarpedido\\modulopedidofinalizado\\pedidofinalizado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BF9560D-C9F7-4824-8EAA-30FA7D8952D7}|over.csproj|solutionrelative:views\\modulocontroles\\modulocontrolevendas\\modulogerarpedido\\modulopedidofinalizado\\pedidofinalizado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BF9560D-C9F7-4824-8EAA-30FA7D8952D7}|over.csproj|C:\\Users\\Endrew\\Documents\\GitHub\\Projeto-Fazenda-Morango-Mania\\views\\modulocontroles\\modulocontrolevendas\\controlevendas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4BF9560D-C9F7-4824-8EAA-30FA7D8952D7}|over.csproj|solutionrelative:views\\modulocontroles\\modulocontrolevendas\\controlevendas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BF9560D-C9F7-4824-8EAA-30FA7D8952D7}|over.csproj|C:\\Users\\Endrew\\Documents\\GitHub\\Projeto-Fazenda-Morango-Mania\\views\\moduloadm\\modulocontroleusuario\\cadastrousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4BF9560D-C9F7-4824-8EAA-30FA7D8952D7}|over.csproj|solutionrelative:views\\moduloadm\\modulocontroleusuario\\cadastrousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BF9560D-C9F7-4824-8EAA-30FA7D8952D7}|over.csproj|C:\\Users\\Endrew\\Documents\\GitHub\\Projeto-Fazenda-Morango-Mania\\views\\moduloadm\\modulocontroleusuario\\cadastrousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BF9560D-C9F7-4824-8EAA-30FA7D8952D7}|over.csproj|solutionrelative:views\\moduloadm\\modulocontroleusuario\\cadastrousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BF9560D-C9F7-4824-8EAA-30FA7D8952D7}|over.csproj|C:\\Users\\Endrew\\Documents\\GitHub\\Projeto-Fazenda-Morango-Mania\\views\\moduloapresentacao\\modulologin\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4BF9560D-C9F7-4824-8EAA-30FA7D8952D7}|over.csproj|solutionrelative:views\\moduloapresentacao\\modulologin\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BF9560D-C9F7-4824-8EAA-30FA7D8952D7}|over.csproj|C:\\Users\\Endrew\\Documents\\GitHub\\Projeto-Fazenda-Morango-Mania\\views\\modulocontroles\\modulocontrolevendas\\modulogerarpedido\\gerarpedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BF9560D-C9F7-4824-8EAA-30FA7D8952D7}|over.csproj|solutionrelative:views\\modulocontroles\\modulocontrolevendas\\modulogerarpedido\\gerarpedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BF9560D-C9F7-4824-8EAA-30FA7D8952D7}|over.csproj|C:\\Users\\Endrew\\Documents\\GitHub\\Projeto-Fazenda-Morango-Mania\\views\\modulocontroles\\modulocontrolevendas\\modulogerarpedido\\gerarpedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4BF9560D-C9F7-4824-8EAA-30FA7D8952D7}|over.csproj|solutionrelative:views\\modulocontroles\\modulocontrolevendas\\modulogerarpedido\\gerarpedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BF9560D-C9F7-4824-8EAA-30FA7D8952D7}|over.csproj|C:\\Users\\Endrew\\Documents\\GitHub\\Projeto-Fazenda-Morango-Mania\\views\\modulocontroles\\modulocontrolevendas\\modulogerarpedido\\especificarquantidade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BF9560D-C9F7-4824-8EAA-30FA7D8952D7}|over.csproj|solutionrelative:views\\modulocontroles\\modulocontrolevendas\\modulogerarpedido\\especificarquantidade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BF9560D-C9F7-4824-8EAA-30FA7D8952D7}|over.csproj|C:\\Users\\Endrew\\Documents\\GitHub\\Projeto-Fazenda-Morango-Mania\\views\\modulocontroles\\modulocontrolevendas\\modulogerarpedido\\especificarquantidade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4BF9560D-C9F7-4824-8EAA-30FA7D8952D7}|over.csproj|solutionrelative:views\\modulocontroles\\modulocontrolevendas\\modulogerarpedido\\especificarquantidade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BF9560D-C9F7-4824-8EAA-30FA7D8952D7}|over.csproj|C:\\Users\\Endrew\\Documents\\GitHub\\Projeto-Fazenda-Morango-Mania\\views\\modulocontroles\\modulocontrolevendas\\modulogerarpedido\\moduloconfirmarcompra\\confirmarcompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BF9560D-C9F7-4824-8EAA-30FA7D8952D7}|over.csproj|solutionrelative:views\\modulocontroles\\modulocontrolevendas\\modulogerarpedido\\moduloconfirmarcompra\\confirmarcompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BF9560D-C9F7-4824-8EAA-30FA7D8952D7}|over.csproj|C:\\Users\\Endrew\\Documents\\GitHub\\Projeto-Fazenda-Morango-Mania\\views\\modulocontroles\\modulocontrolevendas\\modulogerarpedido\\moduloconfirmarcompra\\confirmarcompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4BF9560D-C9F7-4824-8EAA-30FA7D8952D7}|over.csproj|solutionrelative:views\\modulocontroles\\modulocontrolevendas\\modulogerarpedido\\moduloconfirmarcompra\\confirmarcompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BF9560D-C9F7-4824-8EAA-30FA7D8952D7}|over.csproj|C:\\Users\\Endrew\\Documents\\GitHub\\Projeto-Fazenda-Morango-Mania\\views\\modulocontroles\\modulocontroleproducao\\moduloprodutos\\modulocadastro\\cadastroproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BF9560D-C9F7-4824-8EAA-30FA7D8952D7}|over.csproj|solutionrelative:views\\modulocontroles\\modulocontroleproducao\\moduloprodutos\\modulocadastro\\cadastroproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BF9560D-C9F7-4824-8EAA-30FA7D8952D7}|over.csproj|C:\\Users\\Endrew\\Documents\\GitHub\\Projeto-Fazenda-Morango-Mania\\views\\modulocontroles\\modulocontroleproducao\\moduloprodutos\\modulocadastro\\cadastroproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4BF9560D-C9F7-4824-8EAA-30FA7D8952D7}|over.csproj|solutionrelative:views\\modulocontroles\\modulocontroleproducao\\moduloprodutos\\modulocadastro\\cadastroproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PedidoFinalizado.cs",
+              "DocumentMoniker": "C:\\Users\\Endrew\\Documents\\GitHub\\Projeto-Fazenda-Morango-Mania\\Views\\ModuloControles\\ModuloControleVendas\\ModuloGerarPedido\\ModuloPedidoFinalizado\\PedidoFinalizado.cs",
+              "RelativeDocumentMoniker": "Views\\ModuloControles\\ModuloControleVendas\\ModuloGerarPedido\\ModuloPedidoFinalizado\\PedidoFinalizado.cs",
+              "ToolTip": "C:\\Users\\Endrew\\Documents\\GitHub\\Projeto-Fazenda-Morango-Mania\\Views\\ModuloControles\\ModuloControleVendas\\ModuloGerarPedido\\ModuloPedidoFinalizado\\PedidoFinalizado.cs",
+              "RelativeToolTip": "Views\\ModuloControles\\ModuloControleVendas\\ModuloGerarPedido\\ModuloPedidoFinalizado\\PedidoFinalizado.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAIA/wDkAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T20:47:44.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PaineldeControle.cs",
+              "DocumentMoniker": "C:\\Users\\Endrew\\Documents\\GitHub\\Projeto-Fazenda-Morango-Mania\\Views\\ModuloADM\\ModuloPainelDeControle\\PaineldeControle.cs",
+              "RelativeDocumentMoniker": "Views\\ModuloADM\\ModuloPainelDeControle\\PaineldeControle.cs",
+              "ToolTip": "C:\\Users\\Endrew\\Documents\\GitHub\\Projeto-Fazenda-Morango-Mania\\Views\\ModuloADM\\ModuloPainelDeControle\\PaineldeControle.cs",
+              "RelativeToolTip": "Views\\ModuloADM\\ModuloPainelDeControle\\PaineldeControle.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAD4vyYAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T20:47:00.954Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ControleVendas.cs",
+              "DocumentMoniker": "C:\\Users\\Endrew\\Documents\\GitHub\\Projeto-Fazenda-Morango-Mania\\Views\\ModuloControles\\ModuloControleVendas\\ControleVendas.cs",
+              "RelativeDocumentMoniker": "Views\\ModuloControles\\ModuloControleVendas\\ControleVendas.cs",
+              "ToolTip": "C:\\Users\\Endrew\\Documents\\GitHub\\Projeto-Fazenda-Morango-Mania\\Views\\ModuloControles\\ModuloControleVendas\\ControleVendas.cs",
+              "RelativeToolTip": "Views\\ModuloControles\\ModuloControleVendas\\ControleVendas.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABIAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T20:44:54.461Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ControleVendas.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Endrew\\Documents\\GitHub\\Projeto-Fazenda-Morango-Mania\\Views\\ModuloControles\\ModuloControleVendas\\ControleVendas.cs",
+              "RelativeDocumentMoniker": "Views\\ModuloControles\\ModuloControleVendas\\ControleVendas.cs",
+              "ToolTip": "C:\\Users\\Endrew\\Documents\\PIM\\2024\\Joia\\over (2)\\over\\Views\\ModuloControles\\ModuloControleVendas\\ControleVendas.cs [Design]",
+              "RelativeToolTip": "..\\..\\PIM\\2024\\Joia\\over (2)\\over\\Views\\ModuloControles\\ModuloControleVendas\\ControleVendas.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T20:40:46.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\Endrew\\Documents\\GitHub\\Projeto-Fazenda-Morango-Mania\\Views\\ModuloApresentacao\\ModuloLogin\\Login.cs",
+              "RelativeDocumentMoniker": "Views\\ModuloApresentacao\\ModuloLogin\\Login.cs",
+              "ToolTip": "C:\\Users\\Endrew\\Documents\\GitHub\\Projeto-Fazenda-Morango-Mania\\Views\\ModuloApresentacao\\ModuloLogin\\Login.cs",
+              "RelativeToolTip": "Views\\ModuloApresentacao\\ModuloLogin\\Login.cs",
+              "ViewState": "AQIAAFkAAAAAAAAAAAAWwGQAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T20:40:11.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Login.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Endrew\\Documents\\GitHub\\Projeto-Fazenda-Morango-Mania\\Views\\ModuloApresentacao\\ModuloLogin\\Login.cs",
+              "RelativeDocumentMoniker": "Views\\ModuloApresentacao\\ModuloLogin\\Login.cs",
+              "ToolTip": "C:\\Users\\Endrew\\Documents\\PIM\\2024\\Joia\\over (2)\\over\\Views\\ModuloApresentacao\\ModuloLogin\\Login.cs [Design]",
+              "RelativeToolTip": "..\\..\\PIM\\2024\\Joia\\over (2)\\over\\Views\\ModuloApresentacao\\ModuloLogin\\Login.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T20:40:07.435Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GerarPedido.cs",
+              "DocumentMoniker": "C:\\Users\\Endrew\\Documents\\GitHub\\Projeto-Fazenda-Morango-Mania\\Views\\ModuloControles\\ModuloControleVendas\\ModuloGerarPedido\\GerarPedido.cs",
+              "RelativeDocumentMoniker": "Views\\ModuloControles\\ModuloControleVendas\\ModuloGerarPedido\\GerarPedido.cs",
+              "ToolTip": "C:\\Users\\Endrew\\Documents\\GitHub\\Projeto-Fazenda-Morango-Mania\\Views\\ModuloControles\\ModuloControleVendas\\ModuloGerarPedido\\GerarPedido.cs",
+              "RelativeToolTip": "Views\\ModuloControles\\ModuloControleVendas\\ModuloGerarPedido\\GerarPedido.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAYwD0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T20:07:07.672Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GerarPedido.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Endrew\\Documents\\GitHub\\Projeto-Fazenda-Morango-Mania\\Views\\ModuloControles\\ModuloControleVendas\\ModuloGerarPedido\\GerarPedido.cs",
+              "RelativeDocumentMoniker": "Views\\ModuloControles\\ModuloControleVendas\\ModuloGerarPedido\\GerarPedido.cs",
+              "ToolTip": "C:\\Users\\Endrew\\Documents\\PIM\\2024\\Joia\\over (2)\\over\\Views\\ModuloControles\\ModuloControleVendas\\ModuloGerarPedido\\GerarPedido.cs [Design]",
+              "RelativeToolTip": "..\\..\\PIM\\2024\\Joia\\over (2)\\over\\Views\\ModuloControles\\ModuloControleVendas\\ModuloGerarPedido\\GerarPedido.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T20:07:01.011Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Conexao.cs",
+              "DocumentMoniker": "C:\\Users\\Endrew\\Documents\\GitHub\\Projeto-Fazenda-Morango-Mania\\Funcionalidades\\Conexao.cs",
+              "RelativeDocumentMoniker": "Funcionalidades\\Conexao.cs",
+              "ToolTip": "C:\\Users\\Endrew\\Documents\\GitHub\\Projeto-Fazenda-Morango-Mania\\Funcionalidades\\Conexao.cs*",
+              "RelativeToolTip": "Funcionalidades\\Conexao.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T20:05:56.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EspecificarQuantidade.cs",
+              "DocumentMoniker": "C:\\Users\\Endrew\\Documents\\GitHub\\Projeto-Fazenda-Morango-Mania\\Views\\ModuloControles\\ModuloControleVendas\\ModuloGerarPedido\\EspecificarQuantidade.cs",
+              "RelativeDocumentMoniker": "Views\\ModuloControles\\ModuloControleVendas\\ModuloGerarPedido\\EspecificarQuantidade.cs",
+              "ToolTip": "C:\\Users\\Endrew\\Documents\\GitHub\\Projeto-Fazenda-Morango-Mania\\Views\\ModuloControles\\ModuloControleVendas\\ModuloGerarPedido\\EspecificarQuantidade.cs",
+              "RelativeToolTip": "Views\\ModuloControles\\ModuloControleVendas\\ModuloGerarPedido\\EspecificarQuantidade.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAADsAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T20:04:16.151Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "EspecificarQuantidade.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Endrew\\Documents\\GitHub\\Projeto-Fazenda-Morango-Mania\\Views\\ModuloControles\\ModuloControleVendas\\ModuloGerarPedido\\EspecificarQuantidade.cs",
+              "RelativeDocumentMoniker": "Views\\ModuloControles\\ModuloControleVendas\\ModuloGerarPedido\\EspecificarQuantidade.cs",
+              "ToolTip": "C:\\Users\\Endrew\\Documents\\PIM\\2024\\Joia\\over (2)\\over\\Views\\ModuloControles\\ModuloControleVendas\\ModuloGerarPedido\\EspecificarQuantidade.cs [Design]",
+              "RelativeToolTip": "..\\..\\PIM\\2024\\Joia\\over (2)\\over\\Views\\ModuloControles\\ModuloControleVendas\\ModuloGerarPedido\\EspecificarQuantidade.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T20:04:04.019Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ConfirmarCompra.cs",
+              "DocumentMoniker": "C:\\Users\\Endrew\\Documents\\GitHub\\Projeto-Fazenda-Morango-Mania\\Views\\ModuloControles\\ModuloControleVendas\\ModuloGerarPedido\\ModuloConfirmarCompra\\ConfirmarCompra.cs",
+              "RelativeDocumentMoniker": "Views\\ModuloControles\\ModuloControleVendas\\ModuloGerarPedido\\ModuloConfirmarCompra\\ConfirmarCompra.cs",
+              "ToolTip": "C:\\Users\\Endrew\\Documents\\GitHub\\Projeto-Fazenda-Morango-Mania\\Views\\ModuloControles\\ModuloControleVendas\\ModuloGerarPedido\\ModuloConfirmarCompra\\ConfirmarCompra.cs",
+              "RelativeToolTip": "Views\\ModuloControles\\ModuloControleVendas\\ModuloGerarPedido\\ModuloConfirmarCompra\\ConfirmarCompra.cs",
+              "ViewState": "AQIAAIYAAAAAAAAAAAAUwJEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T19:58:28.692Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ConfirmarCompra.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Endrew\\Documents\\GitHub\\Projeto-Fazenda-Morango-Mania\\Views\\ModuloControles\\ModuloControleVendas\\ModuloGerarPedido\\ModuloConfirmarCompra\\ConfirmarCompra.cs",
+              "RelativeDocumentMoniker": "Views\\ModuloControles\\ModuloControleVendas\\ModuloGerarPedido\\ModuloConfirmarCompra\\ConfirmarCompra.cs",
+              "ToolTip": "C:\\Users\\Endrew\\Documents\\PIM\\2024\\Joia\\over (2)\\over\\Views\\ModuloControles\\ModuloControleVendas\\ModuloGerarPedido\\ModuloConfirmarCompra\\ConfirmarCompra.cs [Design]",
+              "RelativeToolTip": "..\\..\\PIM\\2024\\Joia\\over (2)\\over\\Views\\ModuloControles\\ModuloControleVendas\\ModuloGerarPedido\\ModuloConfirmarCompra\\ConfirmarCompra.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T19:58:22.436Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CadastroProduto.cs",
+              "DocumentMoniker": "C:\\Users\\Endrew\\Documents\\GitHub\\Projeto-Fazenda-Morango-Mania\\Views\\ModuloControles\\ModuloControleProducao\\ModuloProdutos\\ModuloCadastro\\CadastroProduto.cs",
+              "RelativeDocumentMoniker": "Views\\ModuloControles\\ModuloControleProducao\\ModuloProdutos\\ModuloCadastro\\CadastroProduto.cs",
+              "ToolTip": "C:\\Users\\Endrew\\Documents\\GitHub\\Projeto-Fazenda-Morango-Mania\\Views\\ModuloControles\\ModuloControleProducao\\ModuloProdutos\\ModuloCadastro\\CadastroProduto.cs",
+              "RelativeToolTip": "Views\\ModuloControles\\ModuloControleProducao\\ModuloProdutos\\ModuloCadastro\\CadastroProduto.cs",
+              "ViewState": "AQIAAFMAAAAAAAAAAAAiwF4AAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T19:48:46.552Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CadastroProduto.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Endrew\\Documents\\GitHub\\Projeto-Fazenda-Morango-Mania\\Views\\ModuloControles\\ModuloControleProducao\\ModuloProdutos\\ModuloCadastro\\CadastroProduto.cs",
+              "RelativeDocumentMoniker": "Views\\ModuloControles\\ModuloControleProducao\\ModuloProdutos\\ModuloCadastro\\CadastroProduto.cs",
+              "ToolTip": "C:\\Users\\Endrew\\Documents\\PIM\\2024\\Joia\\over (2)\\over\\Views\\ModuloControles\\ModuloControleProducao\\ModuloProdutos\\ModuloCadastro\\CadastroProduto.cs [Design]",
+              "RelativeToolTip": "..\\..\\PIM\\2024\\Joia\\over (2)\\over\\Views\\ModuloControles\\ModuloControleProducao\\ModuloProdutos\\ModuloCadastro\\CadastroProduto.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T19:48:42.409Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CadastroUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\Endrew\\Documents\\GitHub\\Projeto-Fazenda-Morango-Mania\\Views\\ModuloADM\\ModuloControleUsuario\\CadastroUsuario.cs",
+              "RelativeDocumentMoniker": "Views\\ModuloADM\\ModuloControleUsuario\\CadastroUsuario.cs",
+              "ToolTip": "C:\\Users\\Endrew\\Documents\\GitHub\\Projeto-Fazenda-Morango-Mania\\Views\\ModuloADM\\ModuloControleUsuario\\CadastroUsuario.cs",
+              "RelativeToolTip": "Views\\ModuloADM\\ModuloControleUsuario\\CadastroUsuario.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAgwDkAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T19:48:26.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CadastroUsuario.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Endrew\\Documents\\GitHub\\Projeto-Fazenda-Morango-Mania\\Views\\ModuloADM\\ModuloControleUsuario\\CadastroUsuario.cs",
+              "RelativeDocumentMoniker": "Views\\ModuloADM\\ModuloControleUsuario\\CadastroUsuario.cs",
+              "ToolTip": "C:\\Users\\Endrew\\Documents\\PIM\\2024\\Joia\\over (2)\\over\\Views\\ModuloADM\\ModuloControleUsuario\\CadastroUsuario.cs [Design]",
+              "RelativeToolTip": "..\\..\\PIM\\2024\\Joia\\over (2)\\over\\Views\\ModuloADM\\ModuloControleUsuario\\CadastroUsuario.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T19:48:22.845Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

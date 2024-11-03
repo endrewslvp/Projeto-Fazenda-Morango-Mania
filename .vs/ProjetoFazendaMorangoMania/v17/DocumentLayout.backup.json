@@ -1,0 +1,358 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mateu\\OneDrive\\\u00C1rea de Trabalho\\over (2)\\over\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4BF9560D-C9F7-4824-8EAA-30FA7D8952D7}|over.csproj|c:\\users\\mateu\\onedrive\\\u00E1rea de trabalho\\over (2)\\over\\views\\modulocontroles\\modulocontrolevendas\\moduloclientes\\modulocadastro\\cadastrocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BF9560D-C9F7-4824-8EAA-30FA7D8952D7}|over.csproj|solutionrelative:views\\modulocontroles\\modulocontrolevendas\\moduloclientes\\modulocadastro\\cadastrocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BF9560D-C9F7-4824-8EAA-30FA7D8952D7}|over.csproj|c:\\users\\mateu\\onedrive\\\u00E1rea de trabalho\\over (2)\\over\\views\\modulocontroles\\modulocontrolevendas\\moduloclientes\\modulocadastro\\cadastrocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4BF9560D-C9F7-4824-8EAA-30FA7D8952D7}|over.csproj|solutionrelative:views\\modulocontroles\\modulocontrolevendas\\moduloclientes\\modulocadastro\\cadastrocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BF9560D-C9F7-4824-8EAA-30FA7D8952D7}|over.csproj|c:\\users\\mateu\\onedrive\\\u00E1rea de trabalho\\over (2)\\over\\views\\moduloadm\\modulocontroleusuario\\cadastrousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4BF9560D-C9F7-4824-8EAA-30FA7D8952D7}|over.csproj|solutionrelative:views\\moduloadm\\modulocontroleusuario\\cadastrousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BF9560D-C9F7-4824-8EAA-30FA7D8952D7}|over.csproj|c:\\users\\mateu\\onedrive\\\u00E1rea de trabalho\\over (2)\\over\\views\\modulocontroles\\modulocontrolevendas\\controlevendas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4BF9560D-C9F7-4824-8EAA-30FA7D8952D7}|over.csproj|solutionrelative:views\\modulocontroles\\modulocontrolevendas\\controlevendas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BF9560D-C9F7-4824-8EAA-30FA7D8952D7}|over.csproj|c:\\users\\mateu\\onedrive\\\u00E1rea de trabalho\\over (2)\\over\\funcionalidades\\conexao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BF9560D-C9F7-4824-8EAA-30FA7D8952D7}|over.csproj|solutionrelative:funcionalidades\\conexao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BF9560D-C9F7-4824-8EAA-30FA7D8952D7}|over.csproj|c:\\users\\mateu\\onedrive\\\u00E1rea de trabalho\\over (2)\\over\\views\\modulocontroles\\modulocontrolevendas\\modulogerarpedido\\gerarpedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4BF9560D-C9F7-4824-8EAA-30FA7D8952D7}|over.csproj|solutionrelative:views\\modulocontroles\\modulocontrolevendas\\modulogerarpedido\\gerarpedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BF9560D-C9F7-4824-8EAA-30FA7D8952D7}|over.csproj|c:\\users\\mateu\\onedrive\\\u00E1rea de trabalho\\over (2)\\over\\views\\modulocontroles\\modulocontrolevendas\\moduloclientes\\clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4BF9560D-C9F7-4824-8EAA-30FA7D8952D7}|over.csproj|solutionrelative:views\\modulocontroles\\modulocontrolevendas\\moduloclientes\\clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BF9560D-C9F7-4824-8EAA-30FA7D8952D7}|over.csproj|c:\\users\\mateu\\onedrive\\\u00E1rea de trabalho\\over (2)\\over\\views\\moduloadm\\modulocontroleusuario\\controleusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4BF9560D-C9F7-4824-8EAA-30FA7D8952D7}|over.csproj|solutionrelative:views\\moduloadm\\modulocontroleusuario\\controleusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BF9560D-C9F7-4824-8EAA-30FA7D8952D7}|over.csproj|c:\\users\\mateu\\onedrive\\\u00E1rea de trabalho\\over (2)\\over\\views\\moduloapresentacao\\modulologin\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4BF9560D-C9F7-4824-8EAA-30FA7D8952D7}|over.csproj|solutionrelative:views\\moduloapresentacao\\modulologin\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BF9560D-C9F7-4824-8EAA-30FA7D8952D7}|over.csproj|c:\\users\\mateu\\onedrive\\\u00E1rea de trabalho\\over (2)\\over\\views\\modulocontroles\\modulocontrolevendas\\modulovendas\\vendas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4BF9560D-C9F7-4824-8EAA-30FA7D8952D7}|over.csproj|solutionrelative:views\\modulocontroles\\modulocontrolevendas\\modulovendas\\vendas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BF9560D-C9F7-4824-8EAA-30FA7D8952D7}|over.csproj|c:\\users\\mateu\\onedrive\\\u00E1rea de trabalho\\over (2)\\over\\views\\modulocontroles\\modulocontrolevendas\\modulogerarpedido\\moduloconfirmarcompra\\confirmarcompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4BF9560D-C9F7-4824-8EAA-30FA7D8952D7}|over.csproj|solutionrelative:views\\modulocontroles\\modulocontrolevendas\\modulogerarpedido\\moduloconfirmarcompra\\confirmarcompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BF9560D-C9F7-4824-8EAA-30FA7D8952D7}|over.csproj|c:\\users\\mateu\\onedrive\\\u00E1rea de trabalho\\over (2)\\over\\views\\modulocontroles\\modulocontrolevendas\\modulogerarpedido\\modulopagamento\\pixcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4BF9560D-C9F7-4824-8EAA-30FA7D8952D7}|over.csproj|solutionrelative:views\\modulocontroles\\modulocontrolevendas\\modulogerarpedido\\modulopagamento\\pixcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BF9560D-C9F7-4824-8EAA-30FA7D8952D7}|over.csproj|c:\\users\\mateu\\onedrive\\\u00E1rea de trabalho\\over (2)\\over\\views\\modulocontroles\\modulocontrolevendas\\modulogerarpedido\\modulopedidofinalizado\\pedidofinalizado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4BF9560D-C9F7-4824-8EAA-30FA7D8952D7}|over.csproj|solutionrelative:views\\modulocontroles\\modulocontrolevendas\\modulogerarpedido\\modulopedidofinalizado\\pedidofinalizado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BF9560D-C9F7-4824-8EAA-30FA7D8952D7}|over.csproj|c:\\users\\mateu\\onedrive\\\u00E1rea de trabalho\\over (2)\\over\\views\\moduloadm\\modulopaineldecontrole\\paineldecontrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4BF9560D-C9F7-4824-8EAA-30FA7D8952D7}|over.csproj|solutionrelative:views\\moduloadm\\modulopaineldecontrole\\paineldecontrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BF9560D-C9F7-4824-8EAA-30FA7D8952D7}|over.csproj|c:\\users\\mateu\\onedrive\\\u00E1rea de trabalho\\over (2)\\over\\views\\modulocontroles\\modulocontrolevendas\\modulogerarpedido\\especificarquantidade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4BF9560D-C9F7-4824-8EAA-30FA7D8952D7}|over.csproj|solutionrelative:views\\modulocontroles\\modulocontrolevendas\\modulogerarpedido\\especificarquantidade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BF9560D-C9F7-4824-8EAA-30FA7D8952D7}|over.csproj|c:\\users\\mateu\\onedrive\\\u00E1rea de trabalho\\over (2)\\over\\views\\modulocontroles\\modulocontrolerh\\controlerh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4BF9560D-C9F7-4824-8EAA-30FA7D8952D7}|over.csproj|solutionrelative:views\\modulocontroles\\modulocontrolerh\\controlerh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BF9560D-C9F7-4824-8EAA-30FA7D8952D7}|over.csproj|c:\\users\\mateu\\onedrive\\\u00E1rea de trabalho\\over (2)\\over\\views\\modulocontroles\\modulocontroleproducao\\moduloprodutos\\modulocadastro\\cadastroproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4BF9560D-C9F7-4824-8EAA-30FA7D8952D7}|over.csproj|solutionrelative:views\\modulocontroles\\modulocontroleproducao\\moduloprodutos\\modulocadastro\\cadastroproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BF9560D-C9F7-4824-8EAA-30FA7D8952D7}|over.csproj|c:\\users\\mateu\\onedrive\\\u00E1rea de trabalho\\over (2)\\over\\views\\modulocontroles\\modulocontroleproducao\\moduloprodutos\\moduloinformacoes\\informacoesprodutos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4BF9560D-C9F7-4824-8EAA-30FA7D8952D7}|over.csproj|solutionrelative:views\\modulocontroles\\modulocontroleproducao\\moduloprodutos\\moduloinformacoes\\informacoesprodutos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BF9560D-C9F7-4824-8EAA-30FA7D8952D7}|over.csproj|c:\\users\\mateu\\onedrive\\\u00E1rea de trabalho\\over (2)\\over\\views\\modulocontroles\\modulocontroleproducao\\moduloprodutos\\produtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4BF9560D-C9F7-4824-8EAA-30FA7D8952D7}|over.csproj|solutionrelative:views\\modulocontroles\\modulocontroleproducao\\moduloprodutos\\produtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BF9560D-C9F7-4824-8EAA-30FA7D8952D7}|over.csproj|c:\\users\\mateu\\onedrive\\\u00E1rea de trabalho\\over (2)\\over\\views\\modulocontroles\\modulocontroleproducao\\controleproducao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4BF9560D-C9F7-4824-8EAA-30FA7D8952D7}|over.csproj|solutionrelative:views\\modulocontroles\\modulocontroleproducao\\controleproducao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BF9560D-C9F7-4824-8EAA-30FA7D8952D7}|over.csproj|c:\\users\\mateu\\onedrive\\\u00E1rea de trabalho\\over (2)\\over\\views\\moduloapresentacao\\moduloinicio\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4BF9560D-C9F7-4824-8EAA-30FA7D8952D7}|over.csproj|solutionrelative:views\\moduloapresentacao\\moduloinicio\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CadastroCliente.cs",
+              "DocumentMoniker": "C:\\Users\\mateu\\OneDrive\\\u00C1rea de Trabalho\\over (2)\\over\\Views\\ModuloControles\\ModuloControleVendas\\ModuloClientes\\ModuloCadastro\\CadastroCliente.cs",
+              "RelativeDocumentMoniker": "Views\\ModuloControles\\ModuloControleVendas\\ModuloClientes\\ModuloCadastro\\CadastroCliente.cs",
+              "ToolTip": "C:\\Users\\mateu\\OneDrive\\\u00C1rea de Trabalho\\over (2)\\over\\Views\\ModuloControles\\ModuloControleVendas\\ModuloClientes\\ModuloCadastro\\CadastroCliente.cs*",
+              "RelativeToolTip": "Views\\ModuloControles\\ModuloControleVendas\\ModuloClientes\\ModuloCadastro\\CadastroCliente.cs*",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAkwIoAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T03:31:38.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Conexao.cs",
+              "DocumentMoniker": "C:\\Users\\mateu\\OneDrive\\\u00C1rea de Trabalho\\over (2)\\over\\Funcionalidades\\Conexao.cs",
+              "RelativeDocumentMoniker": "Funcionalidades\\Conexao.cs",
+              "ToolTip": "C:\\Users\\mateu\\OneDrive\\\u00C1rea de Trabalho\\over (2)\\over\\Funcionalidades\\Conexao.cs",
+              "RelativeToolTip": "Funcionalidades\\Conexao.cs",
+              "ViewState": "AgIAAPAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T03:30:57.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Clientes.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\mateu\\OneDrive\\\u00C1rea de Trabalho\\over (2)\\over\\Views\\ModuloControles\\ModuloControleVendas\\ModuloClientes\\Clientes.cs",
+              "RelativeDocumentMoniker": "Views\\ModuloControles\\ModuloControleVendas\\ModuloClientes\\Clientes.cs",
+              "ToolTip": "C:\\Users\\mateu\\OneDrive\\\u00C1rea de Trabalho\\over (2)\\over\\Views\\ModuloControles\\ModuloControleVendas\\ModuloClientes\\Clientes.cs [Design]",
+              "RelativeToolTip": "Views\\ModuloControles\\ModuloControleVendas\\ModuloClientes\\Clientes.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T03:13:41.823Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ConfirmarCompra.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\mateu\\OneDrive\\\u00C1rea de Trabalho\\over (2)\\over\\Views\\ModuloControles\\ModuloControleVendas\\ModuloGerarPedido\\ModuloConfirmarCompra\\ConfirmarCompra.cs",
+              "RelativeDocumentMoniker": "Views\\ModuloControles\\ModuloControleVendas\\ModuloGerarPedido\\ModuloConfirmarCompra\\ConfirmarCompra.cs",
+              "ToolTip": "C:\\Users\\mateu\\OneDrive\\\u00C1rea de Trabalho\\over (2)\\over\\Views\\ModuloControles\\ModuloControleVendas\\ModuloGerarPedido\\ModuloConfirmarCompra\\ConfirmarCompra.cs [Design]",
+              "RelativeToolTip": "Views\\ModuloControles\\ModuloControleVendas\\ModuloGerarPedido\\ModuloConfirmarCompra\\ConfirmarCompra.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T02:59:25.888Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CadastroCliente.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\mateu\\OneDrive\\\u00C1rea de Trabalho\\over (2)\\over\\Views\\ModuloControles\\ModuloControleVendas\\ModuloClientes\\ModuloCadastro\\CadastroCliente.cs",
+              "RelativeDocumentMoniker": "Views\\ModuloControles\\ModuloControleVendas\\ModuloClientes\\ModuloCadastro\\CadastroCliente.cs",
+              "ToolTip": "C:\\Users\\mateu\\OneDrive\\\u00C1rea de Trabalho\\over (2)\\over\\Views\\ModuloControles\\ModuloControleVendas\\ModuloClientes\\ModuloCadastro\\CadastroCliente.cs [Design]*",
+              "RelativeToolTip": "Views\\ModuloControles\\ModuloControleVendas\\ModuloClientes\\ModuloCadastro\\CadastroCliente.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T03:13:45.186Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CadastroUsuario.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\mateu\\OneDrive\\\u00C1rea de Trabalho\\over (2)\\over\\Views\\ModuloADM\\ModuloControleUsuario\\CadastroUsuario.cs",
+              "RelativeDocumentMoniker": "Views\\ModuloADM\\ModuloControleUsuario\\CadastroUsuario.cs",
+              "ToolTip": "C:\\Users\\mateu\\OneDrive\\\u00C1rea de Trabalho\\over (2)\\over\\Views\\ModuloADM\\ModuloControleUsuario\\CadastroUsuario.cs [Design]",
+              "RelativeToolTip": "Views\\ModuloADM\\ModuloControleUsuario\\CadastroUsuario.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T03:01:58.776Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ControleUsuario.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\mateu\\OneDrive\\\u00C1rea de Trabalho\\over (2)\\over\\Views\\ModuloADM\\ModuloControleUsuario\\ControleUsuario.cs",
+              "RelativeDocumentMoniker": "Views\\ModuloADM\\ModuloControleUsuario\\ControleUsuario.cs",
+              "ToolTip": "C:\\Users\\mateu\\OneDrive\\\u00C1rea de Trabalho\\over (2)\\over\\Views\\ModuloADM\\ModuloControleUsuario\\ControleUsuario.cs [Design]",
+              "RelativeToolTip": "Views\\ModuloADM\\ModuloControleUsuario\\ControleUsuario.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T03:02:41.756Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ControleVendas.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\mateu\\OneDrive\\\u00C1rea de Trabalho\\over (2)\\over\\Views\\ModuloControles\\ModuloControleVendas\\ControleVendas.cs",
+              "RelativeDocumentMoniker": "Views\\ModuloControles\\ModuloControleVendas\\ControleVendas.cs",
+              "ToolTip": "C:\\Users\\mateu\\OneDrive\\\u00C1rea de Trabalho\\over (2)\\over\\Views\\ModuloControles\\ModuloControleVendas\\ControleVendas.cs [Design]",
+              "RelativeToolTip": "Views\\ModuloControles\\ModuloControleVendas\\ControleVendas.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T02:54:23.705Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Login.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\mateu\\OneDrive\\\u00C1rea de Trabalho\\over (2)\\over\\Views\\ModuloApresentacao\\ModuloLogin\\Login.cs",
+              "RelativeDocumentMoniker": "Views\\ModuloApresentacao\\ModuloLogin\\Login.cs",
+              "ToolTip": "C:\\Users\\mateu\\OneDrive\\\u00C1rea de Trabalho\\over (2)\\over\\Views\\ModuloApresentacao\\ModuloLogin\\Login.cs [Design]",
+              "RelativeToolTip": "Views\\ModuloApresentacao\\ModuloLogin\\Login.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T03:25:47.186Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GerarPedido.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\mateu\\OneDrive\\\u00C1rea de Trabalho\\over (2)\\over\\Views\\ModuloControles\\ModuloControleVendas\\ModuloGerarPedido\\GerarPedido.cs",
+              "RelativeDocumentMoniker": "Views\\ModuloControles\\ModuloControleVendas\\ModuloGerarPedido\\GerarPedido.cs",
+              "ToolTip": "C:\\Users\\mateu\\OneDrive\\\u00C1rea de Trabalho\\over (2)\\over\\Views\\ModuloControles\\ModuloControleVendas\\ModuloGerarPedido\\GerarPedido.cs [Design]",
+              "RelativeToolTip": "Views\\ModuloControles\\ModuloControleVendas\\ModuloGerarPedido\\GerarPedido.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T02:56:58.447Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PixCode.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\mateu\\OneDrive\\\u00C1rea de Trabalho\\over (2)\\over\\Views\\ModuloControles\\ModuloControleVendas\\ModuloGerarPedido\\ModuloPagamento\\PixCode.cs",
+              "RelativeDocumentMoniker": "Views\\ModuloControles\\ModuloControleVendas\\ModuloGerarPedido\\ModuloPagamento\\PixCode.cs",
+              "ToolTip": "C:\\Users\\mateu\\OneDrive\\\u00C1rea de Trabalho\\over (2)\\over\\Views\\ModuloControles\\ModuloControleVendas\\ModuloGerarPedido\\ModuloPagamento\\PixCode.cs [Design]",
+              "RelativeToolTip": "Views\\ModuloControles\\ModuloControleVendas\\ModuloGerarPedido\\ModuloPagamento\\PixCode.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T02:59:22.296Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PedidoFinalizado.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\mateu\\OneDrive\\\u00C1rea de Trabalho\\over (2)\\over\\Views\\ModuloControles\\ModuloControleVendas\\ModuloGerarPedido\\ModuloPedidoFinalizado\\PedidoFinalizado.cs",
+              "RelativeDocumentMoniker": "Views\\ModuloControles\\ModuloControleVendas\\ModuloGerarPedido\\ModuloPedidoFinalizado\\PedidoFinalizado.cs",
+              "ToolTip": "C:\\Users\\mateu\\OneDrive\\\u00C1rea de Trabalho\\over (2)\\over\\Views\\ModuloControles\\ModuloControleVendas\\ModuloGerarPedido\\ModuloPedidoFinalizado\\PedidoFinalizado.cs [Design]",
+              "RelativeToolTip": "Views\\ModuloControles\\ModuloControleVendas\\ModuloGerarPedido\\ModuloPedidoFinalizado\\PedidoFinalizado.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T02:57:51.314Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Vendas.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\mateu\\OneDrive\\\u00C1rea de Trabalho\\over (2)\\over\\Views\\ModuloControles\\ModuloControleVendas\\ModuloVendas\\Vendas.cs",
+              "RelativeDocumentMoniker": "Views\\ModuloControles\\ModuloControleVendas\\ModuloVendas\\Vendas.cs",
+              "ToolTip": "C:\\Users\\mateu\\OneDrive\\\u00C1rea de Trabalho\\over (2)\\over\\Views\\ModuloControles\\ModuloControleVendas\\ModuloVendas\\Vendas.cs [Design]",
+              "RelativeToolTip": "Views\\ModuloControles\\ModuloControleVendas\\ModuloVendas\\Vendas.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T02:56:51.859Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PaineldeControle.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\mateu\\OneDrive\\\u00C1rea de Trabalho\\over (2)\\over\\Views\\ModuloADM\\ModuloPainelDeControle\\PaineldeControle.cs",
+              "RelativeDocumentMoniker": "Views\\ModuloADM\\ModuloPainelDeControle\\PaineldeControle.cs",
+              "ToolTip": "C:\\Users\\mateu\\OneDrive\\\u00C1rea de Trabalho\\over (2)\\over\\Views\\ModuloADM\\ModuloPainelDeControle\\PaineldeControle.cs [Design]",
+              "RelativeToolTip": "Views\\ModuloADM\\ModuloPainelDeControle\\PaineldeControle.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T03:03:20.59Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "EspecificarQuantidade.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\mateu\\OneDrive\\\u00C1rea de Trabalho\\over (2)\\over\\Views\\ModuloControles\\ModuloControleVendas\\ModuloGerarPedido\\EspecificarQuantidade.cs",
+              "RelativeDocumentMoniker": "Views\\ModuloControles\\ModuloControleVendas\\ModuloGerarPedido\\EspecificarQuantidade.cs",
+              "ToolTip": "C:\\Users\\mateu\\OneDrive\\\u00C1rea de Trabalho\\over (2)\\over\\Views\\ModuloControles\\ModuloControleVendas\\ModuloGerarPedido\\EspecificarQuantidade.cs [Design]",
+              "RelativeToolTip": "Views\\ModuloControles\\ModuloControleVendas\\ModuloGerarPedido\\EspecificarQuantidade.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T02:57:47.473Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ControleRh.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\mateu\\OneDrive\\\u00C1rea de Trabalho\\over (2)\\over\\Views\\ModuloControles\\ModuloControleRH\\ControleRh.cs",
+              "RelativeDocumentMoniker": "Views\\ModuloControles\\ModuloControleRH\\ControleRh.cs",
+              "ToolTip": "C:\\Users\\mateu\\OneDrive\\\u00C1rea de Trabalho\\over (2)\\over\\Views\\ModuloControles\\ModuloControleRH\\ControleRh.cs [Design]",
+              "RelativeToolTip": "Views\\ModuloControles\\ModuloControleRH\\ControleRh.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T02:51:39.453Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CadastroProduto.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\mateu\\OneDrive\\\u00C1rea de Trabalho\\over (2)\\over\\Views\\ModuloControles\\ModuloControleProducao\\ModuloProdutos\\ModuloCadastro\\CadastroProduto.cs",
+              "RelativeDocumentMoniker": "Views\\ModuloControles\\ModuloControleProducao\\ModuloProdutos\\ModuloCadastro\\CadastroProduto.cs",
+              "ToolTip": "C:\\Users\\mateu\\OneDrive\\\u00C1rea de Trabalho\\over (2)\\over\\Views\\ModuloControles\\ModuloControleProducao\\ModuloProdutos\\ModuloCadastro\\CadastroProduto.cs [Design]",
+              "RelativeToolTip": "Views\\ModuloControles\\ModuloControleProducao\\ModuloProdutos\\ModuloCadastro\\CadastroProduto.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T02:51:31.304Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "InformacoesProdutos.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\mateu\\OneDrive\\\u00C1rea de Trabalho\\over (2)\\over\\Views\\ModuloControles\\ModuloControleProducao\\ModuloProdutos\\ModuloInformacoes\\InformacoesProdutos.cs",
+              "RelativeDocumentMoniker": "Views\\ModuloControles\\ModuloControleProducao\\ModuloProdutos\\ModuloInformacoes\\InformacoesProdutos.cs",
+              "ToolTip": "C:\\Users\\mateu\\OneDrive\\\u00C1rea de Trabalho\\over (2)\\over\\Views\\ModuloControles\\ModuloControleProducao\\ModuloProdutos\\ModuloInformacoes\\InformacoesProdutos.cs [Design]",
+              "RelativeToolTip": "Views\\ModuloControles\\ModuloControleProducao\\ModuloProdutos\\ModuloInformacoes\\InformacoesProdutos.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T02:51:27.146Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Produtos.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\mateu\\OneDrive\\\u00C1rea de Trabalho\\over (2)\\over\\Views\\ModuloControles\\ModuloControleProducao\\ModuloProdutos\\Produtos.cs",
+              "RelativeDocumentMoniker": "Views\\ModuloControles\\ModuloControleProducao\\ModuloProdutos\\Produtos.cs",
+              "ToolTip": "C:\\Users\\mateu\\OneDrive\\\u00C1rea de Trabalho\\over (2)\\over\\Views\\ModuloControles\\ModuloControleProducao\\ModuloProdutos\\Produtos.cs [Design]",
+              "RelativeToolTip": "Views\\ModuloControles\\ModuloControleProducao\\ModuloProdutos\\Produtos.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T02:51:19.77Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ControleProducao.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\mateu\\OneDrive\\\u00C1rea de Trabalho\\over (2)\\over\\Views\\ModuloControles\\ModuloControleProducao\\ControleProducao.cs",
+              "RelativeDocumentMoniker": "Views\\ModuloControles\\ModuloControleProducao\\ControleProducao.cs",
+              "ToolTip": "C:\\Users\\mateu\\OneDrive\\\u00C1rea de Trabalho\\over (2)\\over\\Views\\ModuloControles\\ModuloControleProducao\\ControleProducao.cs [Design]",
+              "RelativeToolTip": "Views\\ModuloControles\\ModuloControleProducao\\ControleProducao.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T02:49:36.546Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Inicio.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\mateu\\OneDrive\\\u00C1rea de Trabalho\\over (2)\\over\\Views\\ModuloApresentacao\\ModuloInicio\\Inicio.cs",
+              "RelativeDocumentMoniker": "Views\\ModuloApresentacao\\ModuloInicio\\Inicio.cs",
+              "ToolTip": "C:\\Users\\mateu\\OneDrive\\\u00C1rea de Trabalho\\over (2)\\over\\Views\\ModuloApresentacao\\ModuloInicio\\Inicio.cs [Design]",
+              "RelativeToolTip": "Views\\ModuloApresentacao\\ModuloInicio\\Inicio.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T02:49:26.133Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

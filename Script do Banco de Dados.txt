@@ -1,0 +1,99 @@
+CREATE TABLE Cadastro(
+	Id INT PRIMARY KEY IDENTITY, 
+    	NomeFull NVARCHAR(100) NOT NULL,
+	CPF NVARCHAR(14) NOT NULL,
+	Cargo NVARCHAR (100) NULL,
+	Email NVARCHAR(100)  NULL,
+	Senha NVARCHAR(100)  NULL
+);
+CREATE TABLE Clientes (
+    Id INT PRIMARY KEY IDENTITY,
+    Nome NVARCHAR(100) NOT NULL,
+    Telefone NVARCHAR(20) NOT NULL,
+    Email NVARCHAR(100) NOT NULL,
+    CNPJ NVARCHAR(20) NOT NULL,
+    CEP NVARCHAR(20) NOT NULL,
+    Rua NVARCHAR(100) NOT NULL,
+    Numero NVARCHAR(20) NOT NULL,
+    Bairro NVARCHAR(100)NOT NULL,
+    Complemento NVARCHAR(100) NULL
+);
+
+CREATE TABLE Fornecedores (
+    Id INT PRIMARY KEY IDENTITY,
+    Nome NVARCHAR(100),
+	TipoFornecimento NVARCHAR (100),
+    Descricao NVARCHAR (200),
+    Telefone NVARCHAR(20),
+    Email NVARCHAR(100),
+    CNPJ NVARCHAR(20),
+    Bairro NVARCHAR(100),
+    Numero NVARCHAR(20),
+    Rua NVARCHAR(100)
+);
+
+CREATE TABLE Produtos (
+    Id INT PRIMARY KEY IDENTITY,
+    Nome NVARCHAR(100),
+    Preco DECIMAL(18, 2),
+    Validade DATE,
+    QtdProduto INT
+);
+
+CREATE TABLE Nutrientes (
+    ID INT PRIMARY KEY IDENTITY,
+    Nome NVARCHAR(100),
+	Validade DATE,
+	Quantidade INT,
+    Descricao NVARCHAR (100),
+);
+
+CREATE TABLE Ferramentas (
+    Id INT PRIMARY KEY IDENTITY,
+    Nome NVARCHAR(100),
+    Descricao NVARCHAR(100),
+    Tipo NVARCHAR(100),
+	QtdFerramenta INT  
+);
+
+CREATE TABLE Colaboradores (
+    Id INT PRIMARY KEY IDENTITY,
+    Nome NVARCHAR(100),
+	CPF NVARCHAR (14),
+	Horario NVARCHAR(30),
+    Cargo NVARCHAR(30),
+    
+);
+
+CREATE TABLE Cargos (
+    Id INT PRIMARY KEY IDENTITY,
+    Nome NVARCHAR(100),
+    Descricao NVARCHAR(100)
+);
+
+CREATE TABLE Sementes(
+ID INT PRIMARY KEY IDENTITY NOT NULL,
+Nome NVARCHAR (50) NOT NULL,
+Quantidade INT,
+Descricao NVARCHAR (200)
+);
+
+CREATE TABLE Vendas(
+ID INT PRIMARY KEY IDENTITY NOT NULL,
+ID_Cliente INT,
+ID_Produto INT,
+Quantidade INT,
+TotalCompra DECIMAL (10,2),
+CodigoCompra VARCHAR(50),
+MetodoPagamento NVARCHAR (25)
+
+FOREIGN KEY (ID_Cliente) REFERENCES Clientes(Id),
+FOREIGN KEY (ID_Produto) REFERENCES Produtos (Id)
+);
+
+insert into dbo.Cadastro (NomeFull,CPF,Cargo,Email,Senha) values ('ADM','000.000.000-00','Administrador','adm@gmail.com','adm')
+
+INSERT INTO dbo.Produtos (Nome, Preco, Validade, QtdProduto) VALUES ('Albion', 2.50, '2025-06-01', 500);
+INSERT INTO dbo.Produtos (Nome, Preco, Validade, QtdProduto) VALUES ('Camarosa', 2.30, '2025-05-15', 450);
+INSERT INTO dbo.Produtos (Nome, Preco, Validade, QtdProduto) VALUES ('San Andreas', 2.80, '2025-07-10', 300);
+INSERT INTO dbo.Produtos (Nome, Preco, Validade, QtdProduto) VALUES ('Sweet Charlie', 2.40, '2025-04-03', 640);
